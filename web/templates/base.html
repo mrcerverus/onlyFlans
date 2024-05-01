@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,16 +10,17 @@
     <!-- Iconos Fontawesome -->
     <script src="https://kit.fontawesome.com/65c7c19306.js" crossorigin="anonymous"></script>
     <title>OnlyFlans</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
 </head>
 <body>
-    
-{% block "header" %}
-    {% include "includes/header.html" %}
-{% endblock "header" %}
 
 {% block 'navbar' %}
     {% include "includes/navbar.html" %}
 {% endblock 'navbar' %}
+
+{% block "header" %}
+    {% include "includes/header.html" %}
+{% endblock "header" %}
 
 {% block 'content' %}
     <p>este es el contenido</p>
