@@ -1,41 +1,43 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-:root{
+:root {
     --principal: #4f5382;
     --secundario: #a5a5bf;
     --negro: #000;
-    --blanco: #fff;
-    --peligro: #483d8b; 
+    --gris: #b3b3ff;
+    --peligro: #483d8b;
+    --blanco: white;
 
-} 
+}
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
-    font-family: "Roboto" , sans-serif;
-    font-size: 16px; /* 1rem = 10px */
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    /* 1rem = 10px */
     scroll-padding: 5rem;
 }
 
-html{
-    background-color: var(--secundario);
-}
 
-nav{
+nav {
     background-color: var(--peligro);
 }
 
-.logotipo{
+.logotipo {
     height: 3rem;
 }
 
+#formulario {
+    background-color: var(--secundario);
+}
 
-#footer{
+#footer {
     background-color: var(--principal);
 }
-.text_footer, .min{
+
+.text_footer,
+.min {
     color: var(--blanco);
 }
