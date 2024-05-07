@@ -27,6 +27,19 @@
                 <li class="nav-item">
                     <a class="nav-link text-white" href="{% url "contact_form" %}">Contactanos</a>
                 </li>
+
+
+                    {% if user.is_authenticated %}
+                    <li class="nav-item text-white"></li>
+                        <p class='text-white'>Bienvenido {{ user.username }}</p>
+                        <a class="nav-link text-white" href="{% url 'logout' %}">Cerrar sesión</a>
+                    </li>
+                    {% else %}
+                    <li class="nav-item text-white">
+                        <a class="nav-link text-white" href="{% url 'login' %}">Iniciar sesión</a>
+                    </li>
+                    {% endif %}
+
             </ul>
         </div>
     </div>

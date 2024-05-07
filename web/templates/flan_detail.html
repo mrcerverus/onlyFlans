@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block 'content' %}
+
+<div class="container">
+    <div class="card">
+    <img src=" {{ flan.image_url }}" class="card-img-top" alt="{{ flan.slug }}">
+        <div class="card-body">
+            <h5 class="card-title">{{ flan.name }}</h5>
+            <p class="card-text text-justify">{{ flan.description}}</p>
+            <p class="card-text text-justify">Precio: $ {{ flan.precio}}.-</p>
+        </div>
+    </div>
+</div>
+
+{% endblock 'content' %}

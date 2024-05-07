@@ -12,6 +12,7 @@ class Flan(models.Model):
     image_url = models.URLField(blank=False, null=False)
     slug = models.SlugField(unique=True, max_length=255, blank=True)
     is_private = models.BooleanField(default=False)
+    precio = models.DecimalField(decimal_places=2, max_digits=10, default=1000, null=True)
 
     def save(self, *args, **kwargs):
         if not self.slug:
@@ -19,7 +20,7 @@ class Flan(models.Model):
         super().save(*args, **kwargs)
     
     def __str__(self):
-          return self.name
+        return self.name
     
 
 class Contacto(models.Model):
