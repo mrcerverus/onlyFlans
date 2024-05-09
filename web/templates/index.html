@@ -4,24 +4,58 @@
 
 {% block 'content' %}
 
-<section class="container mx-auto pt-5">
-  <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5 g-4">
-      {% for flan in flanes %}
-      <div class="col">
-        <div class="card h-100">
-          <a href=" {% url "flan_details" flan.id %} ">
-          <img src="{{ flan.image_url }}" height ="200px" class="card-img-top" alt="{{ flan.slug }}">
-          </a>
-          <div class="card-body">
-            <h5 class="card-title">{{ flan.name }}</h5>
-            <p class="card-text text-justify">{{ flan.description}}</p>
+<section class="page-section clearfix">
+    <div class="container">
+        <div class="intro">
+            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static "img/intro.jpg" %}" alt="..." />
+            <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+                <h2 class="section-heading mb-4">
+                    <span class="section-heading-upper">Flanes Frescos, Caseros y Deliciosos</span>
+                    <span class="section-heading-lower">Nuestro Compromiso</span>
+                </h2>
+                <p class="mb-3">
+                    Cuando ingresa a nuestra tienda para comenzar el día, estamos dedicados a brindarle un servicio amable, 
+                    un ambiente acogedor y, sobre todo, excelentes productos elaborados con ingredientes de la más alta calidad. 
+                    Si no está satisfecho, háganoslo saber y haremos todo lo posible para arreglar las cosas.
+                </p>
+                <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl" href="#!">Visitanos</a></div>
+            </div>
         </div>
-          <div class="card-footer">
-            <small class="text-body-secondary">Delicius</small>
-          </div>
-        </div>
-      </div>
-    {% endfor %}  
-  </div>
+    </div>
 </section>
+
+<section class="page-section clearfix">
+    <div class="container">
+            <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+                <h2 class="section-heading mb-4">
+                    <span class="section-heading-upper">Flanes Frescos, Caseros y Deliciosos</span>
+                    <span class="section-heading-lower">Nuestros Productos</span>
+                </h2>
+            </div>
+    </div>
+</section>
+
+<section class="container mx-auto pt-5 page-section clearfix">
+    <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5 g-4 ">
+    {% for flan in flanes %}
+        <div class="col text-center bg-faded rounded p-2">
+            <div class="card h-100">
+                <a href=" {% url "flan_details" flan.id %} ">
+                    <img src="{{ flan.image_url }}" height="200px" weight="300px" class="card-img-top" alt="{{ flan.slug }}">
+                </a>
+            <div class="card-body">
+                <h5 class="card-title">{{ flan.name }}</h5>
+                <p class="card-text text-justify mb-3">{{ flan.description}}</p>
+            </div>
+            <div class="card-footer">
+                <a href=" {% url "flan_details" flan.id %} ">
+                    <small class="text-body-secondary">Delicius</small>
+                </a>
+            </div>
+            </div>
+        </div>
+    {% endfor %}  
+    </div>
+</section>
+
 {% endblock 'content' %}

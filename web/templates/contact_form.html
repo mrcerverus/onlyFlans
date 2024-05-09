@@ -1,44 +1,50 @@
 {% extends 'base.html' %}
 {% load static %}
-
-
 {% block 'content' %}
 
-<!-- <form method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit">Submit</button>
-</form> -->
-<div class="mx-auto col-4 p-3" id = "formulario">
-<form method="POST">
-    {% csrf_token %}
-    <!-- {{ form }} -->
+<section class="page-section clearfix">
+    <div class="col-4 mx-auto">
+        <div class="intro-text left-0 bg-faded p-5 rounded">
 
-    {{ form.non_field_errors }}
+            <div class="card-header">
+                <h4>Favor llenar todos los campos</h4>
+            </div>
 
-    <!-- Name input -->
-    <div data-mdb-input-init class="form-outline mb-4">
-        <label class="form-label" for="form4Example1">{{ form.customer_name.label_tag }}</label>
-        <input type="text" id="form4Example1" class="form-control" name="customer_name" />
+            <form method="POST">
+                {% csrf_token %}
+                <!-- {{ form }} -->
+
+                {{ form.non_field_errors }}
+
+                <!-- Name input -->
+                <div data-mdb-input-init class="form-outline mb-4">
+                    <label class="form-label" for="form4Example1">{{ form.customer_name.label_tag }}</label>
+                    <input type="text" id="form4Example1" class="form-control" name="customer_name" />
+                </div>
+
+                <!-- Email input -->
+                <div data-mdb-input-init class="form-outline mb-4">
+                    <label class="form-label" for="form4Example2">{{ form.customer_email.label_tag }}</label>
+                    <input type="text" id="form4Example2" class="form-control" name="customer_email" />
+                </div>
+                <div class="text-danger">
+                    {{ form.customer_email.errors }}
+                </div>
+
+                <!-- Message input -->
+                <div data-mdb-input-init class="form-outline mb-4">
+                    <label class="form-label" for="form4Example3">{{ form.message.label_tag }}</label>
+                    <textarea class="form-control" id="form4Example3" rows="4" name="message"></textarea>
+                </div>
+
+                <!-- Button -->
+                <div class="card-footer text-end">
+                    <button type="submit" class="btn btn-primary btn-block mb-4">Enviar</button>
+                </div>
+            </form>
+        </div>
     </div>
-    
-      <!-- Email input -->
-      <div data-mdb-input-init class="form-outline mb-4">
-        <label class="form-label" for="form4Example2">{{ form.customer_email.label_tag }}</label>
-        <input type="text" id="form4Example2" class="form-control" name="customer_email"/>
-      </div>
-      <div class="text-danger">
-        {{ form.customer_email.errors }}
-      </div>
-      <!-- Message input -->
-      <div data-mdb-input-init class="form-outline mb-4">
-        <label class="form-label" for="form4Example3">{{ form.message.label_tag }}</label>
-        <textarea class="form-control" id="form4Example3" rows="4" name="message"></textarea>
-      </div>
-      <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
-</form>
-</div>
-
+</section>
 
 
 {% endblock 'content' %}

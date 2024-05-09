@@ -1,30 +1,13 @@
 {% load static %}
-<header class="container border text-center">
-    <div id="carouselExample" class="carousel slide text-center">
-        <div class="carousel-inner text-center">
-            <div class="carousel-item active">
-                <div class="ratio ratio-16x9">
-                    <iframe src="{% static 'img/1.mp4' %}" title="YouTube video" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="ratio ratio-16x9">
-                    <iframe src="{% static 'img/2.mp4' %}" title="YouTube video" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="ratio ratio-16x9">
-                    <iframe src="{% static 'img/3.mp4' %}" title="YouTube video" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
+
+<header>
+    <h1 class="site-heading text-center text-faded d-none d-lg-block">
+        <span class="site-heading-upper text-primary mb-3">Tienda De Flanes</span>
+        <span class="site-heading-lower">OnlyFlans</span>
+{% comment %}         <div class="d-flex justify-content-center w-100">
+            <a class="navbar-brand text-white letralabster" href="{% url "indice" %}">
+                <img class="logotipo w-25" src="{% static 'img/logo.png' %}" alt="OnlyFlans">
+            </a>
+        </div> {% endcomment %}
+    </h1>
 </header>

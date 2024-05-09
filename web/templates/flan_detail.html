@@ -4,15 +4,19 @@
 
 {% block 'content' %}
 
-<div class="container">
-    <div class="card">
-    <img src=" {{ flan.image_url }}" class="card-img-top" alt="{{ flan.slug }}">
-        <div class="card-body">
-            <h5 class="card-title">{{ flan.name }}</h5>
-            <p class="card-text text-justify">{{ flan.description}}</p>
-            <p class="card-text text-justify">Precio: $ {{ flan.precio}}.-</p>
+
+
+<section class="page-section clearfix">
+    <div class="container">
+        <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+            <img src=" {{ flan.image_url }}" class="card-img-top" alt="{{ flan.slug }}">
+            <div class="card-body">
+                <h5 class="card-title">{{ flan.name }}</h5>
+                <p class="card-text text-justify">{{ flan.description}}</p>
+                <p class="card-text text-justify">Precio: $ {{ flan.precio}}.-</p>
+            </div>
         </div>
     </div>
-</div>
+</section>
 
 {% endblock 'content' %}

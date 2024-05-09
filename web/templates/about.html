@@ -1,79 +1,84 @@
 {% extends 'base.html' %}
+{% load static %}
+
 
 {% block 'content' %}
 
 <!-- ======= About Section ======= -->
-<div class="d-flex justify-content-center">
-    <div class="accordion w-50">
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
-                    aria-controls="panelsStayOpen-collapseOne">
-                    <h4>Nuestra Historia</h4>
-                </button>
-            </h2>
-            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
-                <div class="accordion-body">
-                    <p>Onlyflans nació de la pasión compartida por los postres entre un grupo de amigos que buscaban
-                        revolucionar el
-                        mundo de los flanes. Inspirados por recetas familiares y el deseo de ofrecer algo único, comenzaron
-                        a
-                        experimentar en la cocina, perfeccionando sus técnicas y combinando sabores innovadores. Con el
-                        tiempo, lo que
-                        comenzó como un pequeño proyecto se convirtió en una empresa dedicada a la creación de los flanes
-                        más deliciosos
-                        y apreciados por los amantes de los postres. Desde entonces, hemos mantenido nuestro compromiso con
-                        la calidad y
-                        la autenticidad, compartiendo nuestra pasión por los flanes con cada cliente que prueba nuestros
-                        productos.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-                    aria-controls="panelsStayOpen-collapseTwo">
-                    <h4>Nuestra Misión</h4>
-                </button>
-            </h2>
-            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
-                <div class="accordion-body">
-                    <p>Ofrecer a nuestros clientes la experiencia más deliciosa y reconfortante a través de nuestros
-                        exquisitos flanes
-                        artesanales. Nos comprometemos a elaborar productos de la más alta calidad, utilizando ingredientes
-                        frescos y
-                        naturales, para satisfacer los paladares más exigentes y deleitar a cada cliente con cada bocado.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
-                    aria-controls="panelsStayOpen-collapseThree">
-                    <h4>Nuestra Vision</h4>
-                </button>
-            </h2>
-            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
-                <div class="accordion-body">
-                    <p>Ser reconocidos como la marca líder en la industria de los postres, especialmente en el segmento de
-                        flanes,
-                        destacando por nuestra excelencia en sabor, calidad y servicio al cliente. Aspiramos a expandirnos a
-                        nuevos
-                        mercados, manteniendo siempre nuestra pasión por la autenticidad y la tradición en la elaboración de
-                        nuestros
-                        productos.
-                    </p>
-                </div>
+
+<section class="page-section clearfix">
+    <div class="container">
+        <div class="intro">
+            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static "img/about.jpg" %}" alt="..." />
+            <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+                <h2 class="section-heading mb-4">
+                    <span class="section-heading-upper">Flanes Frescos, Caseros y Deliciosos</span>
+                    <span class="section-heading-lower">Nuestra Historia</span>
+                </h2>
+                <p class="mb-3">Onlyflans nació de la pasión compartida por los postres entre un grupo de amigos que buscaban
+                    revolucionar el
+                    mundo de los flanes. Inspirados por recetas familiares y el deseo de ofrecer algo único, comenzaron
+                    a
+                    experimentar en la cocina, perfeccionando sus técnicas y combinando sabores innovadores. Con el
+                    tiempo, lo que
+                    comenzó como un pequeño proyecto se convirtió en una empresa dedicada a la creación de los flanes
+                    más deliciosos
+                    y apreciados por los amantes de los postres. Desde entonces, hemos mantenido nuestro compromiso con
+                    la calidad y
+                    la autenticidad, compartiendo nuestra pasión por los flanes con cada cliente que prueba nuestros
+                    productos.
+                </p>
+                <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl" href="#!">Visitanos!</a></div>
             </div>
         </div>
     </div>
-</div>
+</section>
 
+<section class="page-section clearfix">
+    <div class="container">
+        <div class="intro">
+            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static "img/intro.jpg" %}" alt="..." />
+            <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+                <h2 class="section-heading mb-4">
+                    <span class="section-heading-upper">Flanes Frescos, Caseros y Deliciosos</span>
+                    <span class="section-heading-lower">Nuestra Mision</span>
+                </h2>
+                <p class="mb-3">
+                    Ofrecer a nuestros clientes la experiencia más deliciosa y reconfortante a través de nuestros
+                    exquisitos flanes
+                    artesanales. Nos comprometemos a elaborar productos de la más alta calidad, utilizando ingredientes
+                    frescos y
+                    naturales, para satisfacer los paladares más exigentes y deleitar a cada cliente con cada bocado.
+                </p>
+                <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl" href="#!">Visitanos!</a></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="page-section clearfix">
+    <div class="container">
+        <div class="intro">
+            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static "img/bg.jpg" %}" alt="..." />
+            <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+                <h2 class="section-heading mb-4">
+                    <span class="section-heading-upper">Flanes Frescos, Caseros y Deliciosos</span>
+                    <span class="section-heading-lower">Nuestra Vision</span>
+                </h2>
+                <p class="mb-3">
+                    Ser reconocidos como la marca líder en la industria de los postres, especialmente en el segmento de
+                    flanes,
+                    destacando por nuestra excelencia en sabor, calidad y servicio al cliente. Aspiramos a expandirnos a
+                    nuevos
+                    mercados, manteniendo siempre nuestra pasión por la autenticidad y la tradición en la elaboración de
+                    nuestros
+                    productos.
+                </p>
+                <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl" href="#!">Visitanos!</a></div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!-- End About Section -->
 {% endblock 'content' %}

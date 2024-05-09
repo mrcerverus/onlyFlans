@@ -1,48 +1,29 @@
 {% load static %}
 <!-- Menu Principal Bootstrap-->
 
-<nav class="navbar navbar-expand-lg p-3">
-    <div class="container-fluid">
 
-        <a class="navbar-brand text-white letralabster" href=" {% url "indice" %}">
-            <img class="logotipo" src="{% static 'img/logo.png' %}" alt="OnlyFlans">
-        </a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
+<nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="{% url "indice" %}">OnlyFlans</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="{% url "indice" %}">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href=" {% url "acerca" %}">Acerca</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="{% url "bienvenido" %}">Bienvenidos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="{% url "contact_form" %}">Contactanos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="{% url "register" %}">Registrate</a>
-                </li>
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{% url "indice" %}">Home</a></li>
+                <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{% url "acerca" %}">Acerca</a></li>
+                <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{% url "contact_form" %}">Contactanos</a></li>
 
+                {% if user.is_authenticated %}
 
-                    {% if user.is_authenticated %}
-                    <li class="nav-item text-white"></li>
-                        <p class='text-white'>Bienvenido {{ user.username }}</p>
-                        <a class="nav-link text-white" href="{% url 'logout' %}">Cerrar sesión</a>
-                    </li>
-                    {% else %}
-                    <li class="nav-item text-white">
-                        <a class="nav-link text-white" href="{% url 'login' %}">Iniciar sesión</a>
-                    </li>
-                    {% endif %}
+                <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{% url "bienvenido" %}">Bienvenidos</a></li>
+                <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{% url "logout" %}">Cerrar Sesión</a></li>
 
+                {% else %}
+
+                <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{% url "register" %}">Registrate</a></li>
+                <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{% url 'login' %}">Iniciar Sesión</a></li>
+                
+                {% endif %}
             </ul>
         </div>
     </div>
