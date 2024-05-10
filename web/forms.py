@@ -11,7 +11,7 @@ class TextInputWidget(forms.TextInput):
 class ContactForm(forms.ModelForm):
     class Meta:
         model = Contacto
-        fields = ['customer_name','customer_email','message']
+        fields = ['customer_name','customer_email','phone','message']
         widgets = {
             'customer_email': TextInputWidget(),  # Usa el widget personalizado
         }

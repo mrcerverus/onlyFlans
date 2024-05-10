@@ -2,47 +2,54 @@
 {% load static %}
 {% block 'content' %}
 
-<section class="page-section clearfix">
-    <div class="col-4 mx-auto">
-        <div class="intro-text left-0 bg-faded p-5 rounded">
+<section class="clearfix d-flex justify-content-center ">
+    <div class="intro-text left-0 bg-faded p-5 rounded">
 
-            <div class="card-header">
-                <h4>Favor llenar todos los campos</h4>
+        <div class="card-header">
+            <h4>Favor llenar todos los campos</h4>
+        </div>
+
+        <form method="POST">
+            {% csrf_token %}
+            <!-- {{ form }} -->
+
+            {{ form.non_field_errors }}
+
+            <!-- Name input -->
+            <div data-mdb-input-init class="form-outline mb-4">
+                <label class="form-label" for="form4Example1">{{ form.customer_name.label_tag }}</label>
+                <input type="text" id="form4Example1" class="form-control" name="customer_name" />
             </div>
 
-            <form method="POST">
-                {% csrf_token %}
-                <!-- {{ form }} -->
+            <!-- Email input -->
+            <div data-mdb-input-init class="form-outline mb-4">
+                <label class="form-label" for="form4Example2">{{ form.customer_email.label_tag }}</label>
+                <input type="text" id="form4Example2" class="form-control" name="customer_email" />
+            </div>
+            <div class="text-danger">
+                {{ form.customer_email.errors }}
+            </div>
 
-                {{ form.non_field_errors }}
+            <!-- Telefono -->
+            <div data-mdb-input-init class="form-outline mb-4">
+                <label class="form-label" for="form4Example3">{{ form.phone.label_tag }}</label>
+                <input type="text" id="form4Example2" class="form-control" name="phone" />
+            </div>
+            <div class="text-danger">
+                {{ form.phone.errors }}
+            </div>
 
-                <!-- Name input -->
-                <div data-mdb-input-init class="form-outline mb-4">
-                    <label class="form-label" for="form4Example1">{{ form.customer_name.label_tag }}</label>
-                    <input type="text" id="form4Example1" class="form-control" name="customer_name" />
-                </div>
+            <!-- Message input -->
+            <div data-mdb-input-init class="form-outline mb-4">
+                <label class="form-label" for="form4Example4">{{ form.message.label_tag }}</label>
+                <textarea class="form-control" id="form4Example3" rows="4" name="message"></textarea>
+            </div>
 
-                <!-- Email input -->
-                <div data-mdb-input-init class="form-outline mb-4">
-                    <label class="form-label" for="form4Example2">{{ form.customer_email.label_tag }}</label>
-                    <input type="text" id="form4Example2" class="form-control" name="customer_email" />
-                </div>
-                <div class="text-danger">
-                    {{ form.customer_email.errors }}
-                </div>
-
-                <!-- Message input -->
-                <div data-mdb-input-init class="form-outline mb-4">
-                    <label class="form-label" for="form4Example3">{{ form.message.label_tag }}</label>
-                    <textarea class="form-control" id="form4Example3" rows="4" name="message"></textarea>
-                </div>
-
-                <!-- Button -->
-                <div class="card-footer text-end">
-                    <button type="submit" class="btn btn-primary btn-block mb-4">Enviar</button>
-                </div>
-            </form>
-        </div>
+            <!-- Button -->
+            <div class="card-footer text-end">
+                <button type="submit" class="btn btn-primary btn-block mb-4">Enviar</button>
+            </div>
+        </form>
     </div>
 </section>
 

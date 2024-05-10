@@ -1,6 +1,8 @@
 from django.utils.text import slugify
 import uuid
 from django.db import models
+from phonenumber_field.modelfields import PhoneNumberField
+
 
 
 # Create your models here.
@@ -25,9 +27,10 @@ class Flan(models.Model):
 
 class Contacto(models.Model):
     contact_form_uuid = models.UUIDField(default=uuid.uuid4 , editable=False, unique=True)
-    customer_name = models.CharField(max_length=50, blank=False, null=False)
-    customer_email = models.EmailField(blank=False, null=False)
-    message = models.TextField(blank=False, null=False)
+    customer_name = models.CharField(max_length=50, blank=False, null=False, verbose_name="Nombre Completo")
+    customer_email = models.EmailField(blank=False, null=False, verbose_name="Correo electronico")
+    message = models.TextField(blank=False, null=False, verbose_name="Mensaje")
+    phone = PhoneNumberField(blank=False, null=False, default='',verbose_name="Telefono de contacto")
 
     def __str__(self):
         return self.customer_name

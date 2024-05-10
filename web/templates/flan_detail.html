@@ -4,16 +4,23 @@
 
 {% block 'content' %}
 
-
-
-<section class="page-section clearfix">
+<section class="page-section">
     <div class="container">
-        <div class="intro-text left-0 text-center bg-faded p-5 rounded">
-            <img src=" {{ flan.image_url }}" class="card-img-top" alt="{{ flan.slug }}">
-            <div class="card-body">
-                <h5 class="card-title">{{ flan.name }}</h5>
-                <p class="card-text text-justify">{{ flan.description}}</p>
-                <p class="card-text text-justify">Precio: $ {{ flan.precio}}.-</p>
+        <div class="product-item">
+            <div class="product-item-title d-flex">
+                <div class="bg-faded p-5 d-flex ms-auto rounded">
+                    <h2 class="section-heading mb-0">
+                        <span class="section-heading-upper">Delicius</span>
+                        <span class="section-heading-lower">{{ flan.name }}</span>
+                    </h2>
+                </div>
+            </div>
+            <img class="img-fluid w-100 rounded " src="{{ flan.image_url }}" alt="..." />
+            <div class="product-item-description d-flex me-auto">
+                <div class="bg-faded p-5 rounded">
+                    <p class="mb-0">{{ flan.description}}</p>
+                    <span class="text-bg-danger ">Precio: $ {{ flan.precio}}.-</span>
+                </div>
             </div>
         </div>
     </div>
