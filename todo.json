@@ -1,0 +1,971 @@
+[
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2024-05-02T23:39:37.485Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "Flan de la abuela",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2024-05-02T23:40:00.075Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "Flan de la abuela",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2024-05-02T23:44:10.506Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "Flan de caramelo Sexy",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2024-05-03T22:52:24.827Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "Ariel",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2024-05-04T01:23:15.772Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "Flan de Vainilla",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2024-05-04T01:24:39.543Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "4",
+            "object_repr": "Flan de Chocolate",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 7,
+        "fields": {
+            "action_time": "2024-05-04T01:25:43.670Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "5",
+            "object_repr": "Flan de Caramelo",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 8,
+        "fields": {
+            "action_time": "2024-05-04T01:27:53.473Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "6",
+            "object_repr": "Flan de Caf�",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 9,
+        "fields": {
+            "action_time": "2024-05-04T01:28:58.827Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "7",
+            "object_repr": "Flan de Queso",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 10,
+        "fields": {
+            "action_time": "2024-05-04T01:31:50.629Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "8",
+            "object_repr": "Flan de Almendra",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 11,
+        "fields": {
+            "action_time": "2024-05-04T01:32:54.025Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "9",
+            "object_repr": "Flan de Pi�a",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 12,
+        "fields": {
+            "action_time": "2024-05-04T01:33:04.347Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "Flan de caramelo Sexy",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 13,
+        "fields": {
+            "action_time": "2024-05-04T01:34:14.566Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "10",
+            "object_repr": "Flan de Coco",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 14,
+        "fields": {
+            "action_time": "2024-05-04T01:34:20.043Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "Flan de la abuela",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Is private\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 15,
+        "fields": {
+            "action_time": "2024-05-04T01:35:55.464Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "11",
+            "object_repr": "Flan de Fresa Sex Bomb",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 16,
+        "fields": {
+            "action_time": "2024-05-06T22:48:20.503Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "3",
+            "object_repr": "juanito",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 17,
+        "fields": {
+            "action_time": "2024-05-06T22:49:20.889Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "3",
+            "object_repr": "juanito",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\", \"User permissions\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 18,
+        "fields": {
+            "action_time": "2024-05-06T22:49:25.838Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "3",
+            "object_repr": "juanito",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 19,
+        "fields": {
+            "action_time": "2024-05-07T03:02:59.934Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "4",
+            "object_repr": "elise",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 20,
+        "fields": {
+            "action_time": "2024-05-09T16:28:02.595Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "3",
+            "object_repr": "juanito",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 21,
+        "fields": {
+            "action_time": "2024-05-09T16:28:12.758Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "2",
+            "object_repr": "admin",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 22,
+        "fields": {
+            "action_time": "2024-05-09T16:28:55.689Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "9",
+            "object_repr": "Flan de Pi�a",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image url\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 23,
+        "fields": {
+            "action_time": "2024-05-10T02:22:11.366Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "5",
+            "object_repr": "paulina",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 4,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 4,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 4,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 4,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 5,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 5,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 5,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 5,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 6,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 6,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 6,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 6,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add flan",
+            "content_type": 7,
+            "codename": "add_flan"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change flan",
+            "content_type": 7,
+            "codename": "change_flan"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete flan",
+            "content_type": 7,
+            "codename": "delete_flan"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view flan",
+            "content_type": 7,
+            "codename": "view_flan"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add contact form",
+            "content_type": 8,
+            "codename": "add_contactform"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change contact form",
+            "content_type": 8,
+            "codename": "change_contactform"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete contact form",
+            "content_type": 8,
+            "codename": "delete_contactform"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view contact form",
+            "content_type": 8,
+            "codename": "view_contactform"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add contacto",
+            "content_type": 8,
+            "codename": "add_contacto"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change contacto",
+            "content_type": 8,
+            "codename": "change_contacto"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete contacto",
+            "content_type": 8,
+            "codename": "delete_contacto"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view contacto",
+            "content_type": 8,
+            "codename": "view_contacto"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$OWlgy9T6Fw9N0h9qpLuePb$yIJ6QgxBceKg/aNghKR1gXDSmJCNLJVWRWCVVMlhvI0=",
+            "last_login": "2024-05-10T02:22:26.569Z",
+            "is_superuser": true,
+            "username": "mrcerverus",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-05-02T23:26:01.454Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 5,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$FMgFOTivLknkGhjgz0m3WF$C76vs8LamYuRhKwCbFVVELLlqGOaWqeV3rcnLdcPibU=",
+            "last_login": "2024-05-10T02:22:46.378Z",
+            "is_superuser": false,
+            "username": "paulina",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-05-07T03:01:54.986Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 6,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$l3BW7seziQ3c0Pj3OdtnDk$k67X9Di39aNsGj50AcIUVPqZqWPFUbSe+f1yl/BGw+Y=",
+            "last_login": "2024-05-10T02:22:58.356Z",
+            "is_superuser": false,
+            "username": "Elise",
+            "first_name": "Elise",
+            "last_name": "Villarreal Fierro",
+            "email": "ms.villarreal.fierro@email.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-05-10T02:17:10.320Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "web",
+            "model": "flan"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "web",
+            "model": "contacto"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "il4rgkuwoc02pdk56l2ermb85i9jb7ew",
+        "fields": {
+            "session_data": "e30:1s4883:4hIxIc3frLpDOksrmRz3sx4Wuib5gYN4nIoVNAtMSgc",
+            "expire_date": "2024-05-20T23:52:19.802Z"
+        }
+    },
+    {
+        "model": "web.flan",
+        "pk": 1,
+        "fields": {
+            "flan_uuid": "dcabcd47-ac66-4888-b82c-9143a9ac4fbd",
+            "name": "Flan de la abuela",
+            "description": "Delicioso flan de vainilla receta casera",
+            "image_url": "https://cocinerosargentinos.com/content/recipes/original/flan-de-la-abuela-en-5-pasos.5697.jpg",
+            "slug": "flan-de-la-abuela",
+            "is_private": true,
+            "precio": "1000.00"
+        }
+    },
+    {
+        "model": "web.flan",
+        "pk": 2,
+        "fields": {
+            "flan_uuid": "10cf7ea5-9ac4-4e6f-9a37-d0482e9bc18e",
+            "name": "Flan de caramelo Sexy",
+            "description": "Delicioso flan de caramelo",
+            "image_url": "https://osolemio.com.co/63-scene_default/flan-de-caramelo.jpg",
+            "slug": "flan-de-caramelo-sexy",
+            "is_private": true,
+            "precio": "1000.00"
+        }
+    },
+    {
+        "model": "web.flan",
+        "pk": 3,
+        "fields": {
+            "flan_uuid": "042e8c5a-3453-4898-80c5-539a7f653ab2",
+            "name": "Flan de Vainilla",
+            "description": "Descripci�n: Delicioso flan con un toque de vainilla, suave y cremoso.",
+            "image_url": "https://www.annarecetasfaciles.com/files/flan-de-vainilla-815x458.jpg",
+            "slug": "flan-de-vainilla",
+            "is_private": false,
+            "precio": "1000.00"
+        }
+    },
+    {
+        "model": "web.flan",
+        "pk": 4,
+        "fields": {
+            "flan_uuid": "5f020446-6d45-4c81-8daf-217623a63b13",
+            "name": "Flan de Chocolate",
+            "description": "Irresistible flan de chocolate con un sabor intenso y una textura suave.",
+            "image_url": "https://recetinas.com/wp-content/uploads/2019/03/flan-de-chocolate-casero.jpg",
+            "slug": "flan-de-chocolate",
+            "is_private": false,
+            "precio": "1000.00"
+        }
+    },
+    {
+        "model": "web.flan",
+        "pk": 5,
+        "fields": {
+            "flan_uuid": "f43775c7-9899-4416-b7e2-01e52dba56c5",
+            "name": "Flan de Caramelo",
+            "description": "Cl�sico flan con un toque de caramelo que lo hace irresistible.",
+            "image_url": "https://cdn0.recetasgratis.net/es/posts/0/8/8/flan_de_caramelo_casero_50880_paso_6_600.jpg",
+            "slug": "flan-de-caramelo",
+            "is_private": false,
+            "precio": "1000.00"
+        }
+    },
+    {
+        "model": "web.flan",
+        "pk": 6,
+        "fields": {
+            "flan_uuid": "dc424eda-c02f-4231-9c50-cc20bc3c2867",
+            "name": "Flan de Caf�",
+            "description": "Flan con un sutil aroma y sabor a caf�, perfecto para los amantes de esta bebida.",
+            "image_url": "https://assets.unileversolutions.com/recipes-v2/237526.jpg",
+            "slug": "flan-de-cafe",
+            "is_private": false,
+            "precio": "1000.00"
+        }
+    },
+    {
+        "model": "web.flan",
+        "pk": 7,
+        "fields": {
+            "flan_uuid": "3584624f-7592-43cf-a7c9-4933d4b3509b",
+            "name": "Flan de Queso",
+            "description": "Flan con queso crema, suave y cremoso, ideal para los paladares m�s exigentes.",
+            "image_url": "https://i.blogs.es/2acc7a/flan-de-queso-casero/1366_2000.jpg",
+            "slug": "flan-de-queso",
+            "is_private": false,
+            "precio": "1000.00"
+        }
+    },
+    {
+        "model": "web.flan",
+        "pk": 8,
+        "fields": {
+            "flan_uuid": "e22c1144-b8b6-4aba-9074-be71bce44f77",
+            "name": "Flan de Almendra",
+            "description": "Flan con un delicado sabor a almendra, una combinaci�n perfecta de dulzura y textura.",
+            "image_url": "https://flanes.net/wp-content/uploads/2018/04/57.-flan-de-almendras-300x225.jpg",
+            "slug": "flan-de-almendra",
+            "is_private": false,
+            "precio": "1000.00"
+        }
+    },
+    {
+        "model": "web.flan",
+        "pk": 9,
+        "fields": {
+            "flan_uuid": "e70c52e0-bb45-4c3c-812b-46d4ddc15547",
+            "name": "Flan de Pi�a",
+            "description": "Refrescante flan con trozos de pi�a, ideal para disfrutar en d�as calurosos.",
+            "image_url": "https://s3.abcstatics.com/media/gurmesevilla/2011/05/flan-de-pina-y-leche-condensada.jpg",
+            "slug": "flan-de-pina",
+            "is_private": false,
+            "precio": "1000.00"
+        }
+    },
+    {
+        "model": "web.flan",
+        "pk": 10,
+        "fields": {
+            "flan_uuid": "bd7c478d-1605-47c9-b515-03719b7b7bf6",
+            "name": "Flan de Coco",
+            "description": "Ex�tico flan con un toque de coco, una explosi�n de sabor tropical en cada bocado.",
+            "image_url": "https://mandolina.co/wp-content/uploads/2023/08/flan-de-coco-1080x550-1.png",
+            "slug": "flan-de-coco",
+            "is_private": true,
+            "precio": "1000.00"
+        }
+    },
+    {
+        "model": "web.flan",
+        "pk": 11,
+        "fields": {
+            "flan_uuid": "1a2d4cf1-0e15-4f38-8bac-f7ed8d554242",
+            "name": "Flan de Fresa Sex Bomb",
+            "description": "Delicioso flan con un intenso sabor a fresa, decorado con frutos rojos frescos.",
+            "image_url": "https://cdn2.cocinadelirante.com/sites/default/files/images/2019/01/receta-facil-de-flan-de-fresa-sin-horno-con-leche-condensada.jpg",
+            "slug": "flan-de-fresa-sex-bomb",
+            "is_private": true,
+            "precio": "1000.00"
+        }
+    },
+    {
+        "model": "web.contacto",
+        "pk": 1,
+        "fields": {
+            "contact_form_uuid": "aebff9fd-ab6d-4365-839b-e2c15bf695ab",
+            "customer_name": "Ariel",
+            "customer_email": "mr.arielvc@gmail.com",
+            "message": "asda",
+            "phone": ""
+        }
+    },
+    {
+        "model": "web.contacto",
+        "pk": 3,
+        "fields": {
+            "contact_form_uuid": "20716073-0d0b-48d7-96e4-4e758871f5df",
+            "customer_name": "junaito",
+            "customer_email": "juanito@email.com",
+            "message": "comprar flanes sexys",
+            "phone": ""
+        }
+    },
+    {
+        "model": "web.contacto",
+        "pk": 4,
+        "fields": {
+            "contact_form_uuid": "0d906e2d-6ec2-473b-a378-2db2a323dc1a",
+            "customer_name": "asdad",
+            "customer_email": "a@email.com",
+            "message": "a",
+            "phone": ""
+        }
+    },
+    {
+        "model": "web.contacto",
+        "pk": 5,
+        "fields": {
+            "contact_form_uuid": "8f30ca49-c6d4-484c-b0fd-72c3fb1a329f",
+            "customer_name": "janita",
+            "customer_email": "janita@mail.com",
+            "message": "ricos flanes",
+            "phone": ""
+        }
+    },
+    {
+        "model": "web.contacto",
+        "pk": 6,
+        "fields": {
+            "contact_form_uuid": "795efea7-6028-44d4-ac45-0b33940d895d",
+            "customer_name": "junaito",
+            "customer_email": "juanito@email.com",
+            "message": "delicioso",
+            "phone": ""
+        }
+    },
+    {
+        "model": "web.contacto",
+        "pk": 7,
+        "fields": {
+            "contact_form_uuid": "ffb11ce2-24cd-46ba-9524-00ff0ea423be",
+            "customer_name": "juanito",
+            "customer_email": "juanito@email.com",
+            "message": "hola, como estan?",
+            "phone": ""
+        }
+    },
+    {
+        "model": "web.contacto",
+        "pk": 8,
+        "fields": {
+            "contact_form_uuid": "ebef8f7e-d67e-47ea-b6ec-bd635106263d",
+            "customer_name": "Ariel Villarreal",
+            "customer_email": "mr.arielvc@gmail.com",
+            "message": "ASDASD",
+            "phone": ""
+        }
+    }
+]
